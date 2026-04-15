@@ -2,7 +2,20 @@
 
 This repository contains notebooks for analyzing financial data and querying city demographics and crime data.
 
-## 1. Chicago Data SQL Queries (`SQL_Queries.ipynb`)
+## 1. House Sales (`House_Sales.ipynb`)
+This project predicts housing prices based on various property features using data analysis and machine learning models.
+
+### Overview
+- **Data Wrangling**: Cleans the housing dataset by removing unnecessary identifiers and imputing missing values for bedrooms and bathrooms.
+- **Exploratory Data Analysis**: Uses visualization tools to identify correlations between housing prices and features like waterfront views and square footage.
+- **Model Development**: Fits and evaluates multiple regression models to predict prices, including Simple and Multiple Linear Regression, Polynomial Regression Pipelines, and Ridge Regression.
+
+### Libraries Used
+- `pandas` & `numpy`: For data manipulation and analysis.
+- `matplotlib` & `seaborn`: For data visualization and correlation mapping.
+- `scikit-learn`: For building regression models, preprocessing, and model evaluation.
+
+## 2. Chicago Data SQL Queries (`SQL_Queries.ipynb`)
 This project demonstrates how to load real-world datasets into a local SQLite database and perform various SQL queries to extract insights.
 
 ### Overview
@@ -16,7 +29,7 @@ This project demonstrates how to load real-world datasets into a local SQLite da
 - `ipython-sql`: To execute SQL queries directly in notebook cells.
 - `prettytable`: For formatting the SQL output in a tabular format.
 
-## 2. Stock Data Analysis (`Stock_Data_Visualization.ipynb`)
+## 3. Stock Data Analysis (`Stock_Data_Visualization.ipynb`)
 This project analyzes the historical stock price and historical revenue data for two companies: Tesla (TSLA) and GameStop (GME). 
 
 ### Overview
