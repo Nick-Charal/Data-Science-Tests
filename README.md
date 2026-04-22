@@ -1,8 +1,21 @@
 # Data Science Tests
 
-This repository contains notebooks for analyzing financial data and querying city demographics and crime data.
+This repository contains notebooks for analyzing financial data, querying city demographics and crime data, predicting housing prices, and building LLM-powered data visualization agents.
 
-## 1. House Sales (`House_Sales.ipynb`)
+## 1. Data Visualization Agent (`Data Visualization Agent.ipynb`)
+This project demonstrates how to build an interactive conversational agent that uses large language models (LLMs) to analyze data and dynamically generate charts.
+
+### Overview
+- **Conversational Data Analysis**: Integrates Langchain's Pandas DataFrame agent with the Llama 3 LLM on IBM's watsonx.ai platform to interact with CSV data via natural language.
+- **Dynamic Visualization**: Automatically generates visual representations (such as charts, graphs, and heatmaps) directly from text queries.
+- **Dataset Integration**: Works through an end-to-end example analyzing a "Student Alcohol Consumption" dataset.
+
+### Libraries Used
+- `langchain` & `ibm-watsonx-ai`: To host and communicate with the LLM and parse user natural language commands.
+- `pandas`: For data manipulation.
+- `matplotlib` & `seaborn`: For visualizing the data under the hood.
+
+## 2. House Sales (`House_Sales.ipynb`)
 This project predicts housing prices based on various property features using data analysis and machine learning models.
 
 ### Overview
@@ -15,7 +28,7 @@ This project predicts housing prices based on various property features using da
 - `matplotlib` & `seaborn`: For data visualization and correlation mapping.
 - `scikit-learn`: For building regression models, preprocessing, and model evaluation.
 
-## 2. Chicago Data SQL Queries (`SQL_Queries.ipynb`)
+## 3. Chicago Data SQL Queries (`SQL_Queries.ipynb`)
 This project demonstrates how to load real-world datasets into a local SQLite database and perform various SQL queries to extract insights.
 
 ### Overview
@@ -29,7 +42,7 @@ This project demonstrates how to load real-world datasets into a local SQLite da
 - `ipython-sql`: To execute SQL queries directly in notebook cells.
 - `prettytable`: For formatting the SQL output in a tabular format.
 
-## 3. Stock Data Analysis (`Stock_Data_Visualization.ipynb`)
+## 4. Stock Data Analysis (`Stock_Data_Visualization.ipynb`)
 This project analyzes the historical stock price and historical revenue data for two companies: Tesla (TSLA) and GameStop (GME). 
 
 ### Overview
